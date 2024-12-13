@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="copy"><b>&copy;Copyright Author By Sam</b></div>
+    <div class="center">
+
+        <h1>KS LOGIN</h1>
+        <form action="">
+        <div class="text-field">
+    <input type="text" placeholder="Firstname" required>
+    </div>
+    <br>
+    <div class="text-field">
+    <input type="text" placeholder="Lastname" required>
+    </div>
+    <br>
+    <div class="text-field">
+    <input type="tel" placeholder="phone" required>
+</div>
+<br>
+<div class="text-field">
+   <br><input type="date" placeholder="birthdate" required>
+</div>
+<br>
+<div class="text-field">
+   <br><input type="number" placeholder="quantity" required>
+</div>
+<br>
+<div class="malefe">
+    <label for="title"><title></title></label>
+    <label>gender</label><br>
+    <input type="radio" name="title" value="male">Female<input type="radio" name="title" value="male">male
+
+</div>
+<div class="text-field">
+<br>
+   </label><select name="" id="">
+    <option value="">Select Payment</option>
+    <option value="">Visacard</option>
+    <option value="">MTN</option>
+    <option value="">TIGO</option>
+    <option value="">MASTERCARD</option>
+   </select>
+</div>
+<br>
+<div class="but"><input type="submit" value="reset" class="reset"><br><br>
+    <input type="submit" value="submit" class="submit">
+               
+</form>             
+ </div>
+</body>
+</html>
